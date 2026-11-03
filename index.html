@@ -2,13 +2,17 @@
 <style>body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:760px;margin:0 auto;padding:24px 16px 60px;line-height:1.6;color:#1d2733;background:#fff}h1{font-size:28px}h2{font-size:19px;margin-top:28px}table{border-collapse:collapse;width:100%;font-size:14px}th,td{border:1px solid #d6dde6;padding:8px;text-align:left;vertical-align:top}th{background:#f2f5f9}a{color:#1a63c5}
 @media (prefers-color-scheme:dark){body{background:#121820;color:#e3e9f0}th{background:#1d2733}th,td{border-color:#33404f}a{color:#7fb3ff}}</style></head><body>
 <h1>Hammerfort Privacy Policy</h1>
-<p><em>Last updated: 11 October 2026</em></p>
-<p>This policy explains what information the Hammerfort mobile game ("the Game", "we", "us") collects and why. The Game is published by <strong>Bradley Blake</strong> (United Kingdom). Contact: <strong>games@bradblake.co.uk</strong>.</p>
+<p><em>Last updated: 1 November 2026</em></p>
+<p>This policy explains what information the Hammerfort mobile game ("the Game", "we", "us") collects and why. The Game is published by <strong>BB Gaming Ltd</strong>, a company registered in England and Wales (company number 17541184). Contact: <strong>hello@bbgaming.co.uk</strong>.</p>
 <h2>What we collect</h2>
 <table><tr><th>Data</th><th>Why</th><th>Who processes it</th></tr>
 <tr><td>A random anonymous player ID</td><td>To save your progress to the cloud and show leaderboards</td><td>Google Firebase (Authentication, Firestore)</td></tr>
 <tr><td>Your game progress</td><td>Cloud save, so you can recover progress on a new device</td><td>Google Firebase Firestore</td></tr>
-<tr><td>The commander name you choose (optional)</td><td>Shown on public leaderboards</td><td>Google Firebase Firestore</td></tr>
+<tr><td>Your commander name, picked from a fixed list of words (for example "Storm Falcon")</td><td>Shown on public leaderboards and to other players in raids</td><td>Google Firebase Firestore</td></tr>
+<tr><td>A snapshot of your fort (soldier counts, fort level, defence strength, trophies)</td><td>So other players can find and raid your fort. Raiding never takes anything from you</td><td>Google Firebase Firestore</td></tr>
+<tr><td>Raid reports (which commander name raided your fort, when, and who won)</td><td>To show you what happened while you were away. Deleted once shown</td><td>Google Firebase Firestore</td></tr>
+<tr><td>A push notification token for your device (only if you allow notifications)</td><td>To alert you when another player raids your fort (at most one alert every 2 hours)</td><td>Google Firebase Cloud Messaging, Apple Push Notification service (iPhone)</td></tr>
+<tr><td>Game Center scores and achievements (iPhone only, if you are signed in to Game Center)</td><td>Game Center leaderboards and achievements. Apple handles your Game Center account; we never see your Apple ID or Game Center name</td><td>Apple Game Center</td></tr>
 <tr><td>Gameplay events (for example tutorial steps, battles, purchases) and device information (model, OS version, country)</td><td>To understand how the Game is played and improve it</td><td>Google Analytics for Firebase</td></tr>
 <tr><td>Advertising ID (IDFA/AAID), IP address and ad interaction data</td><td>To show rewarded video ads, measure them and prevent fraud</td><td>Google AdMob</td></tr>
 <tr><td>Purchase history and a store transaction ID</td><td>To deliver and restore in-app purchases</td><td>RevenueCat, Apple App Store, Google Play</td></tr>
@@ -25,17 +29,17 @@
 <p>The Game is not directed at children under 13, and we do not knowingly collect data from them. If you believe a child has provided data, contact us and we will delete it.</p>
 <h2>Keeping and deleting data</h2>
 <ul>
-<li>Cloud saves and leaderboard entries are kept while you play.</li>
+<li>Cloud saves, leaderboard entries and your fort snapshot are kept while you play. Raid reports are deleted after you see them. Your notification token is kept while it works. Once you uninstall the Game it stops working and we delete it the next time an alert fails to send. You can turn raid alerts off at any time in your iPhone Settings → Notifications → Hammerfort.</li>
 <li>Analytics data is kept for up to 14 months.</li>
 </ul>
-<p>To delete your data, email games@bradblake.co.uk with your leaderboard commander name (or roughly when you started playing) and we will remove your cloud save and leaderboard entries within 30 days.</p>
+<p>To delete your data, email hello@bbgaming.co.uk with your leaderboard commander name (or roughly when you started playing) and we will remove your cloud save, leaderboard entries, fort snapshot and notification token within 30 days.</p>
 <h2>Your rights</h2>
-<p>Under UK GDPR and similar laws, you can ask to access, correct, delete or export your data, or object to its processing. Contact games@bradblake.co.uk. You may also complain to the Information Commissioner's Office (<a href="https://ico.org.uk">ico.org.uk</a>).</p>
+<p>Under UK GDPR and similar laws, you can ask to access, correct, delete or export your data, or object to its processing. Contact hello@bbgaming.co.uk. You may also complain to the Information Commissioner's Office (<a href="https://ico.org.uk">ico.org.uk</a>).</p>
 <h2>Third-party policies</h2>
 <ul>
 <li>Google (Firebase, AdMob): <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
 <li>RevenueCat: <a href="https://revenuecat.com/privacy">revenuecat.com/privacy</a></li>
-<li>Apple: <a href="https://apple.com/legal/privacy">apple.com/legal/privacy</a></li>
+<li>Apple (App Store, Game Center, push notifications): <a href="https://apple.com/legal/privacy">apple.com/legal/privacy</a></li>
 <li>Google Play: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
 </ul>
 <h2>Changes</h2>
